@@ -2,7 +2,7 @@ Cabernas
 
 Cabernas é um joga de plataformas onde 
 
-O objtivo de Cabernas é levar o Bernas até à escada que o leva para fora da caverna, tendo de desviar de inimigos e armadilhas para conseguir o morango que lhe concede o poder do duplo salto.
+O objtivo de Cabernas é levar o Bernas até à escada que o leva para fora da caverna, tendo de desviar de inimigos e armadilhas para conseguir o morango que lhe concede o poder do duplo salto, para poder passar por paredes demasiado altas para um só salto .
 
 _________________________________________________________________________________
 
