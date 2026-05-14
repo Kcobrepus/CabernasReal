@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\joaoa\\source\\repos\\CabernasReal\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|c:\\users\\joaoa\\source\\repos\\cabernasreal\\cabernasreal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|solutionrelative:cabernasreal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|c:\\users\\joaoa\\source\\repos\\cabernasreal\\cabernasreal\\classes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|solutionrelative:cabernasreal\\classes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|c:\\users\\joaoa\\source\\repos\\cabernasreal\\cabernasreal\\content\\part1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|solutionrelative:cabernasreal\\content\\part1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|c:\\users\\joaoa\\source\\repos\\cabernasreal\\cabernasreal\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|solutionrelative:cabernasreal\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|c:\\users\\joaoa\\source\\repos\\cabernasreal\\cabernasreal\\classes\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|solutionrelative:cabernasreal\\classes\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|c:\\users\\joaoa\\source\\repos\\cabernasreal\\cabernasreal\\cabernasreal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|solutionrelative:cabernasreal\\cabernasreal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|c:\\users\\joaoa\\source\\repos\\cabernasreal\\cabernasreal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|solutionrelative:cabernasreal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|c:\\users\\joaoa\\source\\repos\\cabernasreal\\cabernasreal\\classes\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,22 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|c:\\users\\joaoa\\source\\repos\\cabernasreal\\cabernasreal\\classes\\exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|solutionrelative:cabernasreal\\classes\\exit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|c:\\users\\joaoa\\source\\repos\\cabernasreal\\cabernasreal\\classes\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|solutionrelative:cabernasreal\\classes\\wall.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|c:\\users\\joaoa\\source\\repos\\cabernasreal\\cabernasreal\\classes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|solutionrelative:cabernasreal\\classes\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|c:\\users\\joaoa\\source\\repos\\cabernasreal\\cabernasreal\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|solutionrelative:cabernasreal\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|c:\\users\\joaoa\\source\\repos\\cabernasreal\\cabernasreal\\cabernasreal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|solutionrelative:cabernasreal\\cabernasreal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D9324D1-E2BB-4A95-1236-9B13D62A0921}|CabernasReal\\CabernasReal.csproj|c:\\users\\joaoa\\source\\repos\\cabernasreal\\cabernasreal\\classes\\power.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,17 +54,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "Game1.cs",
               "DocumentMoniker": "C:\\Users\\joaoa\\source\\repos\\CabernasReal\\CabernasReal\\Game1.cs",
               "RelativeDocumentMoniker": "CabernasReal\\Game1.cs",
               "ToolTip": "C:\\Users\\joaoa\\source\\repos\\CabernasReal\\CabernasReal\\Game1.cs",
               "RelativeToolTip": "CabernasReal\\Game1.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAmwDoAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAqwPwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T08:51:34.003Z",
               "IsPinned": true,
@@ -72,13 +72,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\joaoa\\source\\repos\\CabernasReal\\CabernasReal\\Classes\\Player.cs",
               "RelativeDocumentMoniker": "CabernasReal\\Classes\\Player.cs",
               "ToolTip": "C:\\Users\\joaoa\\source\\repos\\CabernasReal\\CabernasReal\\Classes\\Player.cs",
               "RelativeToolTip": "CabernasReal\\Classes\\Player.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAowDwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACEAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T09:37:34.297Z",
               "IsPinned": true,
@@ -86,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Wall.cs",
               "DocumentMoniker": "C:\\Users\\joaoa\\source\\repos\\CabernasReal\\CabernasReal\\Classes\\Wall.cs",
               "RelativeDocumentMoniker": "CabernasReal\\Classes\\Wall.cs",
@@ -99,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Exit.cs",
               "DocumentMoniker": "C:\\Users\\joaoa\\source\\repos\\CabernasReal\\CabernasReal\\Classes\\Exit.cs",
               "RelativeDocumentMoniker": "CabernasReal\\Classes\\Exit.cs",
@@ -107,13 +107,12 @@
               "RelativeToolTip": "CabernasReal\\Classes\\Exit.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwBIAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T08:37:29.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T08:37:29.2Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CabernasReal",
+              "DocumentIndex": 4,
+              "Title": "CabernasReal.csproj",
               "DocumentMoniker": "C:\\Users\\joaoa\\source\\repos\\CabernasReal\\CabernasReal\\CabernasReal.csproj",
               "RelativeDocumentMoniker": "CabernasReal\\CabernasReal.csproj",
               "ToolTip": "C:\\Users\\joaoa\\source\\repos\\CabernasReal\\CabernasReal\\CabernasReal.csproj",
@@ -133,12 +132,11 @@
               "RelativeToolTip": "CabernasReal\\Classes\\Power.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T11:35:41.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T11:35:41.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Spike.cs",
               "DocumentMoniker": "C:\\Users\\joaoa\\source\\repos\\CabernasReal\\CabernasReal\\Classes\\Spike.cs",
               "RelativeDocumentMoniker": "CabernasReal\\Classes\\Spike.cs",
@@ -146,12 +144,11 @@
               "RelativeToolTip": "CabernasReal\\Classes\\Spike.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwAQAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T20:13:27.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-09T20:13:27.815Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\joaoa\\source\\repos\\CabernasReal\\CabernasReal\\Classes\\Enemy.cs",
               "RelativeDocumentMoniker": "CabernasReal\\Classes\\Enemy.cs",
@@ -159,8 +156,7 @@
               "RelativeToolTip": "CabernasReal\\Classes\\Enemy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T20:02:44.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-09T20:02:44.016Z"
             },
             {
               "$type": "Document",
@@ -170,7 +166,7 @@
               "RelativeDocumentMoniker": "CabernasReal\\Content\\part1.txt",
               "ToolTip": "C:\\Users\\joaoa\\source\\repos\\CabernasReal\\CabernasReal\\Content\\part1.txt",
               "RelativeToolTip": "CabernasReal\\Content\\part1.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2026-05-06T09:30:03.027Z",
               "EditorCaption": ""
@@ -185,18 +181,17 @@
               "RelativeToolTip": "CabernasReal\\Classes\\FollowCamera.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-07T13:32:02.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-07T13:32:02.375Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\joaoa\\source\\repos\\CabernasReal\\CabernasReal\\Program.cs",
               "RelativeDocumentMoniker": "CabernasReal\\Program.cs",
               "ToolTip": "C:\\Users\\joaoa\\source\\repos\\CabernasReal\\CabernasReal\\Program.cs",
               "RelativeToolTip": "CabernasReal\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T09:19:20.891Z",
               "EditorCaption": ""

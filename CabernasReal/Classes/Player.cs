@@ -67,8 +67,36 @@ namespace CabernasReal.Classes
 
             Vector2 direction = Vector2.Zero;
 
-            if (kState.IsKeyDown(Keys.A) || (kState.IsKeyDown(Keys.Left))) direction.X = -1;
-            if (kState.IsKeyDown(Keys.D) || (kState.IsKeyDown(Keys.Right))) direction.X = 1;
+            if (kState.IsKeyDown(Keys.A) || (kState.IsKeyDown(Keys.Left))) {
+                direction.X = -1;
+                game.cont_sp++;
+                if (game.cont_sp >= 9)
+                {
+                    if (game.sp_active == 0) game.sp_active = 5;
+                    game.cont_sp = 0;
+                    game.sp_active++;
+
+                    if (game.sp_active >= game.correr.Length)
+                    {
+                        game.sp_active = 5;
+                    }
+                }
+            }
+            else if (kState.IsKeyDown(Keys.D) || (kState.IsKeyDown(Keys.Right))) {
+                direction.X = 1;
+                game.cont_sp++;
+                if (game.cont_sp >= 9)
+                {
+                    game.cont_sp = 0;
+                    game.sp_active++;
+
+                    if (game.sp_active >= game.correr.Length / 2)
+                    {
+                        game.sp_active = 0;
+                    }
+                }
+            }
+            else { game.cont_sp = 0; if (game.sp_active >= 4) game.sp_active = 4; else game.sp_active = 0; }
 
             // Horizontal velocity
             velocity.X = direction.X * moveSpeed;

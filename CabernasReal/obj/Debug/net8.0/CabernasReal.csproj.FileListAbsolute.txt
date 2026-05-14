@@ -52,3 +52,12 @@ C:\Users\joaoa\source\repos\CabernasReal\CabernasReal\bin\Debug\net8.0\Content\S
 C:\Users\joaoa\source\repos\CabernasReal\CabernasReal\bin\Debug\net8.0\Content\SFX_Jump.xnb
 C:\Users\joaoa\source\repos\CabernasReal\CabernasReal\bin\Debug\net8.0\Content\SFX_Open.xnb
 C:\Users\joaoa\source\repos\CabernasReal\CabernasReal\bin\Debug\net8.0\Content\SFX_Coin_Get.xnb
+C:\Users\joaoa\source\repos\CabernasReal\CabernasReal\obj\Debug\net8.0\CabernasReal.sourcelink.json
+C:\Users\joaoa\source\repos\CabernasReal\CabernasReal\bin\Debug\net8.0\Content\pl_sp0.xnb
+C:\Users\joaoa\source\repos\CabernasReal\CabernasReal\bin\Debug\net8.0\Content\pl_sp1.xnb
+C:\Users\joaoa\source\repos\CabernasReal\CabernasReal\bin\Debug\net8.0\Content\pl_sp2.xnb
+C:\Users\joaoa\source\repos\CabernasReal\CabernasReal\bin\Debug\net8.0\Content\pl_sp3.xnb
+C:\Users\joaoa\source\repos\CabernasReal\CabernasReal\bin\Debug\net8.0\Content\pl_sp5.xnb
+C:\Users\joaoa\source\repos\CabernasReal\CabernasReal\bin\Debug\net8.0\Content\pl_sp6.xnb
+C:\Users\joaoa\source\repos\CabernasReal\CabernasReal\bin\Debug\net8.0\Content\pl_sp7.xnb
+C:\Users\joaoa\source\repos\CabernasReal\CabernasReal\bin\Debug\net8.0\Content\pl_sp4.xnb

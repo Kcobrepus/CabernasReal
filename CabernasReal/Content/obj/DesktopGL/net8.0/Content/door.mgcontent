@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <SourceFile>C:/Users/joaoa/source/repos/CabernasReal/CabernasReal/Content/door.png</SourceFile>
-  <SourceTime>2026-05-06T10:13:52.8510551+01:00</SourceTime>
+  <SourceTime>2026-05-14T16:21:37.1334664+01:00</SourceTime>
   <DestFile>C:/Users/joaoa/source/repos/CabernasReal/CabernasReal/Content/bin/DesktopGL/Content/door.xnb</DestFile>
-  <DestTime>2026-05-06T10:17:00.8439549+01:00</DestTime>
+  <DestTime>2026-05-14T16:22:04.1058433+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2025-06-02T11:31:02+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

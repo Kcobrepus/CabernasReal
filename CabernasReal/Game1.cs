@@ -48,6 +48,8 @@ namespace CabernasReal
 
 
         private Texture2D player, enemy, spike, wall, power, exit;
+        public Texture2D[] correr;
+        public int cont_sp, sp_active;
 
         public Song Mus_fundo, Mus_final, Mus_intro;
 
@@ -102,6 +104,18 @@ namespace CabernasReal
             wall = Content.Load<Texture2D>("parede");
             power = Content.Load<Texture2D>("power");
             exit = Content.Load<Texture2D>("door");
+
+            correr = new Texture2D[8];
+            correr[0] = Content.Load<Texture2D>("pl_sp0");
+            correr[1] = Content.Load<Texture2D>("pl_sp1");
+            correr[2] = Content.Load<Texture2D>("pl_sp2");
+            correr[3] = Content.Load<Texture2D>("pl_sp3");
+            correr[4] = Content.Load<Texture2D>("pl_sp4");
+            correr[5] = Content.Load<Texture2D>("pl_sp5");
+            correr[6] = Content.Load<Texture2D>("pl_sp6");
+            correr[7] = Content.Load<Texture2D>("pl_sp7");
+
+
 
             // Sons
             Mus_intro = Content.Load<Song>("MUS_Intro");
@@ -236,7 +250,7 @@ namespace CabernasReal
 
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue);
+            GraphicsDevice.Clear(Color.DarkBlue);
 
             _spriteBatch.Begin(transformMatrix:
         currentState == GameState.Playing ? camera.GetTransform() : null);
@@ -319,11 +333,12 @@ namespace CabernasReal
                 position.X = (int)jogador.Position.X;
                 position.Y = (int)jogador.Position.Y;
 
-                _spriteBatch.Draw(player, position, Color.White);
+                //_spriteBatch.Draw(player, position, Color.White);
+                _spriteBatch.Draw(correr[sp_active], position, Color.White);
 
             }
-            
-                _spriteBatch.End();
+
+            _spriteBatch.End();
 
                 base.Draw(gameTime);
             

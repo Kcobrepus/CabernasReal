@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CabernasReal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c56138a3c17d8ad1348c001d1173ae56172ab2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CabernasReal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CabernasReal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
