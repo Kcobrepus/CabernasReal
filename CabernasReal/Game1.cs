@@ -257,8 +257,10 @@ namespace CabernasReal
 
             if (currentState == GameState.Menu)
             {
-                _spriteBatch.DrawString(font, "CABERNAS", new Vector2(640, 150), Color.White);
-                _spriteBatch.DrawString(font, "Press ENTER to Start", new Vector2(640, 300), Color.White);
+                _spriteBatch.DrawString(font, "CABERNAS", new Vector2(570, 150), Color.White);
+                _spriteBatch.DrawString(font, "O Bernas caiu numa gruta e agora precisa de consumir o morango para poder saltar no ar e conseguir chegar na escada que o leva para o exterior!", new Vector2(100, 250), Color.White);
+                _spriteBatch.DrawString(font, "Use as setas de direita e esquerda ou as teclas D e A para direcionar o Bernas para forna da Caverna e use a tecla de Espaco para o fazer saltar. ", new Vector2(100, 300), Color.White);
+                _spriteBatch.DrawString(font, "Press ENTER to Start", new Vector2(530, 400), Color.White);
             }
             else if (currentState == GameState.Win)
             {
