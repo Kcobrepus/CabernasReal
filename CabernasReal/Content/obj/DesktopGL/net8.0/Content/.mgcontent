@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>C:/Users/joaoa/source/repos/CabernasReal/CabernasReal/Content/door.png</File>
+    <File>C:/Users/joaoa/source/repos/CabernasReal/CabernasReal/Content/enemy.png</File>
+    <File>C:/Users/joaoa/source/repos/CabernasReal/CabernasReal/Content/File.spritefont</File>
+    <File>C:/Users/joaoa/source/repos/CabernasReal/CabernasReal/Content/MUS_Cavern.ogg</File>
+    <File>C:/Users/joaoa/source/repos/CabernasReal/CabernasReal/Content/MUS_Intro.ogg</File>
+    <File>C:/Users/joaoa/source/repos/CabernasReal/CabernasReal/Content/MUS_Teal.ogg</File>
+    <File>C:/Users/joaoa/source/repos/CabernasReal/CabernasReal/Content/parede.jpg</File>
+    <File>C:/Users/joaoa/source/repos/CabernasReal/CabernasReal/Content/player.jpg</File>
+    <File>C:/Users/joaoa/source/repos/CabernasReal/CabernasReal/Content/power.png</File>
+    <File>C:/Users/joaoa/source/repos/CabernasReal/CabernasReal/Content/SFX_Coin_Get.wav</File>
+    <File>C:/Users/joaoa/source/repos/CabernasReal/CabernasReal/Content/SFX_Double_Jump.wav</File>
+    <File>C:/Users/joaoa/source/repos/CabernasReal/CabernasReal/Content/SFX_Explode_Short.wav</File>
+    <File>C:/Users/joaoa/source/repos/CabernasReal/CabernasReal/Content/SFX_Explosion.wav</File>
+    <File>C:/Users/joaoa/source/repos/CabernasReal/CabernasReal/Content/SFX_Item_Get.wav</File>
+    <File>C:/Users/joaoa/source/repos/CabernasReal/CabernasReal/Content/SFX_Jump.wav</File>
+    <File>C:/Users/joaoa/source/repos/CabernasReal/CabernasReal/Content/SFX_Open.wav</File>
+    <File>C:/Users/joaoa/source/repos/CabernasReal/CabernasReal/Content/spike.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SourceFile>C:/Users/joaoa/source/repos/CabernasReal/CabernasReal/Content/MUS_Teal.ogg</SourceFile>
+  <SourceTime>2026-05-10T14:47:18+01:00</SourceTime>
+  <DestFile>C:/Users/joaoa/source/repos/CabernasReal/CabernasReal/Content/bin/DesktopGL/Content/MUS_Teal.xnb</DestFile>
+  <DestTime>2026-05-11T14:28:15.1084896+01:00</DestTime>
+  <Importer>OggImporter</Importer>
+  <ImporterTime>2025-06-02T11:31:02+01:00</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2025-06-02T11:31:02+01:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>C:/Users/joaoa/source/repos/CabernasReal/CabernasReal/Content/bin/DesktopGL/Content/MUS_Teal.ogg</string>
+  </BuildOutput>
+</PipelineBuildEvent>
