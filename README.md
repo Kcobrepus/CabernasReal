@@ -186,7 +186,9 @@ A Classe Game1 carrega todas as texturas, sons, locais e fontes do jogo e outras
         ...
         }
         
-A função LoadLevel(string levelFile) cria, com base num ficheirode texto ja estruturado o mapa do jogo 
+A função LoadLevel(string levelFile) cria, com base num ficheirode texto ja estruturado o mapa do jogo
+
+
         void LoadLevel(string levelFile)
         {
             enemies.Clear();
