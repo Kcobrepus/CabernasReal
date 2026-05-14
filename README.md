@@ -609,4 +609,185 @@ A função CollidesWithWall(float x, float y) verifica se há colisão com uma p
 
 A função Update(GameTime gameTime) verifica se alguma das teclas que mexeo peronagem foi pressionada e se houve alguma colisão com inimigos, power up ou a saída e faz a ação da mesma.
 
+• Enemy
 
+A Classe Enemy coloca os inimigos nas suas posições e dá-lhes a sua "hitbox", variáveis e movimento
+
+    public class Enemy
+    {
+        private Vector2 position;
+
+        private float speed = 100f;
+
+        private float startY;
+        private float range = 150f;
+
+        private int direction = 1;
+
+        public Rectangle Bounds =>
+    new Rectangle(
+        (int)position.X,
+        (int)position.Y,
+        64,
+        64
+    );
+
+        public Vector2 Position => position;
+
+        public Enemy(float x, float y)
+        {
+            position = new Vector2(x * 64, y * 64);
+
+            startY = position.Y;
+        }
+
+        public void Update(GameTime gameTime)
+        {
+            float dt = (float)gameTime.ElapsedGameTime.TotalSeconds;
+
+            position.Y += speed * direction * dt;
+
+            if (position.Y > startY + range)
+                direction = -1;
+
+            if (position.Y < startY - range)
+                direction = 1;
+        }
+    }
+
+A função Update(GameTime gameTime) faz com que o inimigose mexa de acordo com as variáveis
+
+• FollowCamera
+A Classe FollowCamera move a camara segundo o moimento do jogador
+
+    public class FollowCamera
+    {
+        public Vector2 Position;
+
+        public FollowCamera(Vector2 position)
+        {
+            Position = position;
+        }
+
+        public void Follow(Vector2 targetPosition, Vector2 screenSize)
+        {
+            Position = new Vector2(
+                -targetPosition.X + (screenSize.X / 2),
+                Position.Y = 0
+            );
+        }
+
+        public Matrix GetTransform()
+        {
+            return Matrix.CreateTranslation(
+                new Vector3(Position, 0)
+            );
+        }
+    }
+
+A função Follow(Vector2 targetPosition, Vector2 screenSize) centra a camara e faz com que não se possa mover verticalmente
+A função Matrix GetTransform()  é a função que faz mexer a camara
+
+• Spike, Power, Wall e Exit
+
+A Classe Spike, Power, Wall e Exit fazem o mesmo.
+São usadas para a verifiação de colisão com o jogador e para se inserirem no sítio certo 
+
+
+    public class Spike
+    {
+        private Vector2 position;
+
+        public Rectangle Bounds =>
+    new Rectangle(
+        (int)position.X,
+        (int)position.Y,
+        64,
+        64
+    );
+
+        public Vector2 Position => position;
+
+        public Spike(float x, float y)
+        {
+            position = new Vector2(x * 64, y * 64);
+
+        }
+
+        public void Update(GameTime gameTime)
+        {
+
+        }
+    }
+
+
+    public class Power
+    {
+        private Vector2 position;
+
+        public Rectangle Bounds =>
+    new Rectangle(
+        (int)position.X,
+        (int)position.Y,
+        64,
+        64
+    );
+
+        public Vector2 Position => position;
+
+        public Power(float x, float y)
+        {
+            position = new Vector2(x * 64, y * 64);
+
+        }
+
+        public void Update(GameTime gameTime)
+        {
+
+        }
+    }
+
+        public class Wall
+    {
+        public Vector2 Position;
+
+        public Rectangle Bounds =>
+            new Rectangle(
+                (int)Position.X,
+                (int)Position.Y,
+                64,
+                64
+            );
+
+        public Wall(int x, int y)
+        {
+            Position = new Vector2(x * 64, y * 64);
+        }
+    }
+
+
+    public class Exit
+    {
+        private Vector2 position;
+
+        public Rectangle Bounds =>
+    new Rectangle(
+        (int)position.X,
+        (int)position.Y,
+        64,
+        64
+    );
+
+        public Vector2 Position => position;
+
+        public Exit(float x, float y)
+        {
+            position = new Vector2(x * 64, y * 64);
+
+        }
+
+        public void Update(GameTime gameTime)
+        {
+
+        }
+    }
