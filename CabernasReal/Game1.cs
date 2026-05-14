@@ -238,9 +238,7 @@ namespace CabernasReal
                 }
 
                 tecladoAnterior = keyboard;
-
-                // TODO: Add your update logic here
-
+                
                 jogador.Update(gameTime);
 
                 camera.Follow(jogador.Position + new Vector2(tileSize / 2, tileSize / 2), new Vector2(_graphics.PreferredBackBufferWidth, _graphics.PreferredBackBufferHeight));
