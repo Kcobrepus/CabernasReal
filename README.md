@@ -65,8 +65,8 @@ Análisa do Código
 • Game1
 
 A Classe Game1 carrega todas as texturas, sons, locais e fontes do jogo e outras funções.
-
-  public class Game1 : Game
+  
+    public class Game1 : Game
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
