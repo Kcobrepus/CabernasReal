@@ -8,7 +8,7 @@ Grupo
 
 34982 João Alves
 
-34987 Gustavo Pontes
+34987 Gustavo Ponte
 
 34979 Gonçalo Vasconcelos
 
