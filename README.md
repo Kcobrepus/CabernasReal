@@ -1,6 +1,6 @@
 Cabernas 
 
-Cabernas é um joga de plataformas onde o jogador tem como objetivo levar o Bernas até à escada que o levará para fora da caverna, tendo de desviar de inimigos e armadilhas para conseguir o morango que lhe concede o poder do duplo salto, para poder passar por paredes demasiado altas para um só salto .
+Cabernas é um jogo plataformer onde o jogador tem como objetivo levar o Bernas até à escada que o levará para fora da caverna, tendo de desviar de inimigos e armadilhas para conseguir o morango que lhe concede o poder do duplo salto, para poder saltar por cima de paredes demasiado altas para um só salto .
 
 _________________________________________________________________________________
 
@@ -40,6 +40,7 @@ Recomeço
 
 Vitória
 
+Menu de Início 
 _________________________________________________________________________________
 
 Como jogar
@@ -50,15 +51,17 @@ ________________________________________________________________________________
 
 Estrutura do Código
 
-O jogo está divido por classes, cada uma dedicada a um aspecto do jogo.
+O folder Content contem todos os sound effects e sprites do jogo.
+
+O folder classes contem todas as classes necessárias para o funcionamento do jogo, cada uma dedicada a um tipo de objeto diferente.
 
 Algumas das mais importantes:
 
-• Game1: Classe principal do jogo que gera o jogo. Contém a inicialização, carregamento de conteúdo, atualização e métodos de desenho, e carrega o primeiro ecrã do jogo.
+  • Game1: Classe principal do jogo que gera o jogo. Contém a inicialização, carregamento de conteúdo, atualização e métodos de desenho, e carrega do primeiro ecrã do jogo.
 
-•Player: Classe com as ações do jogador. Contém as mecânicas de movimento, colisão, animação.
+  •Player: Classe com as ações do jogador. Contém as mecânicas de movimento, colisão e animação.
 
-•FollowCamera: Classe quepermite a camara ir com o jogador.
+  •FollowCamera: Classe que permite a camara seguir o jogador.
 
 _________________________________________________________________________________
 
@@ -256,7 +259,7 @@ A função RestartLevel, faz um som e reinvoca a função LoadLevel
             LoadLevel("part1.txt");
         }
 
-A função Update(GameTime gameTime) verifica constantemente o teclado para verificar sealguma tecla foi precionada, e invoca as funçõesde Update de outras Classes
+A função Update(GameTime gameTime) deteta o game state atual do jogo e ainda invoca as funções de Update das outras Classes.
 
         protected override void Update(GameTime gameTime)
         {
@@ -312,7 +315,7 @@ A função Update(GameTime gameTime) verifica constantemente o teclado para veri
             }
         }
 
-A função Draw(GameTime gameTime), implementa as imagens que são usadas no jogador, nos inimigos,paredes etc.
+A função Draw(GameTime gameTime), desenha as imagens que são usadas para o jogador, inimigos, paredes, etc. e ainda desenha o texto do menu principal.
 
         protected override void Draw(GameTime gameTime)
         {
@@ -414,7 +417,7 @@ A função Draw(GameTime gameTime), implementa as imagens que são usadas no jog
         
 • Player
 
-A Classe Player contem tudo o que o personagem faz, como reage às diferentes interações e as suas variàveis
+A Classe Player contem as diversas variáveis que o jogador precisa para se conseguir mover e como este interage com os diversos objetos.
 
     internal class Player
     {
@@ -603,13 +606,14 @@ A Classe Player contem tudo o que o personagem faz, como reage às diferentes in
         }
     }
 
-A função Player(Game1 game, float x, float y) cria o peronagem na posição pré-determinada
+A função Player(Game1 game, float x, float y) cria o personagem na posição determinada pela classe Game1.cs
 
 
 A função CollidesWithWall(float x, float y) verifica se há colisão com uma parede
 
 
 A função Update(GameTime gameTime) verifica se alguma das teclas que mexeo peronagem foi pressionada e se houve alguma colisão com inimigos, power up ou a saída e faz a ação da mesma.
+
 
 • Enemy
 
@@ -688,12 +692,13 @@ A Classe FollowCamera move a camara segundo o moimento do jogador
     }
 
 A função Follow(Vector2 targetPosition, Vector2 screenSize) centra a camara e faz com que não se possa mover verticalmente
+
 A função Matrix GetTransform()  é a função que faz mexer a camara
+
 
 • Spike, Power, Wall e Exit
 
-A Classe Spike, Power, Wall e Exit fazem o mesmo.
-São usadas para a verifiação de colisão com o jogador e para se inserirem no sítio certo 
+A Classe Spike, Power, Wall e Exit fazem o mesmo, ou seja, estas são usadas para criar as hitboxes dos diferentes objetos presentes no jogo
 
 
     public class Spike
