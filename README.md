@@ -1,8 +1,6 @@
 Cabernas 
 
-Cabernas é um joga de plataformas onde 
-
-O objtivo de Cabernas é levar o Bernas até à escada que o leva para fora da caverna, tendo de desviar de inimigos e armadilhas para conseguir o morango que lhe concede o poder do duplo salto, para poder passar por paredes demasiado altas para um só salto .
+Cabernas é um joga de plataformas onde o jogador tem como objetivo levar o Bernas até à escada que o levará para fora da caverna, tendo de desviar de inimigos e armadilhas para conseguir o morango que lhe concede o poder do duplo salto, para poder passar por paredes demasiado altas para um só salto .
 
 _________________________________________________________________________________
 
@@ -46,7 +44,7 @@ ________________________________________________________________________________
 
 Como jogar
 
-O jogador controla o personagem (Bernas) com as setas do tecaldo ou as teclas A e D para se mover para a esquerda e direita e clicando no espaço para saltar. Ao caminhar pela caverna terá inimigos e armadilhas. Se chocar com qualquer umdos inimigos ou armadilhas perderá de imediato. O jogador tem de saltar entre blocos para conseguir obter o slato duplo que o ajuda a chegar a outras partes da caverna e chegar à escada.
+O jogador controla o personagem (Bernas) com as setas do tecaldo ou as teclas A e D (ou as setas de esquerda e direita) para se mover para a esquerda e direita respetivamente e clicando no espaço para saltar. Ao caminhar pela caverna terá inimigos e armadilhas. Se chocar com qualquer um dos inimigos ou armadilhas perderá de imediato. O jogador tem de saltar entre blocos para conseguir obter o salto duplo que o ajuda a chegar a outras partes da caverna e chegar à escada.
 
 _________________________________________________________________________________
 
